@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Hello, {{n}}!</title>
+    <!--font awesome-->
+    <script src="https://use.fontawesome.com/0d3a40f37a.js"></script>
+
+    <!--  full page image-->
+    <style type="text/css">
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background-image: url({{'static/'+image}});
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+ .topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+    </style>
+
+
+</head>
+
+<body>
+
+<!-- weather -->
+<script type="text/javascript">
+WIDGET = {FID: 'LxYYdxaoGZ'}
+
+</script>
+<script type="text/javascript" src="https://apip.weatherdt.com/float/static/js/r.js?v=1111"></script>
+
+<!--settings-->
+
+<ul class="nav">
+    <li class="nav-item">
+        <a class="nav-link active" style="color: white;font-size:15pt;" href="/form">
+            <i class="fa fa-cog fa-spin fa-2x fa-fw"></i>
+
+        </a>
+    </li>
+    <!--  <li class="nav-item">-->
+    <!--    <a class="nav-link" href="#">Link</a>-->
+    <!--  </li>-->
+    <!--  <li class="nav-item">-->
+    <!--    <a class="nav-link" href="#">Link</a>-->
+    <!--  </li>-->
+    <!--  <li class="nav-item">-->
+    <!--    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>-->
+    <!--  </li>-->
+</ul>
+
+
+<!--search line-->
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h1 class="noselect" style="text-align: center; color:white; font-size: 60pt;">{{g}}, {{n}}.</h1>
+<h2 class="noselect" style="text-align: center; color:white;font-size: 40pt;">You have </h2>
+<h1 class="noselect" style="text-align: center; color:white; font-size: 100pt;">{{d}}</h1>
+<h1 class="noselect" style="text-align: center; color:white; font-size: 40pt;">days left for {{e}}</h1>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>
