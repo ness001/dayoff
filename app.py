@@ -27,7 +27,11 @@ import os
 import random
 def shuffle_image():
     image_list=os.listdir('/Users/ness001/dayoff/static')
-    return random.choice(image_list)
+    image=random.choice(image_list)
+    if image!='.DS_Store':
+        return image
+    else:
+        return random.choice(image_list)
 
 @app.route("/form", methods=['get', 'post'])
 def form():
