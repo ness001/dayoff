@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acab39cc-12e6-4a46-b773-d7340b03dd8b" name="Default Changelist" comment=".DS store fix&#10;selenium practice">
+      <change afterPath="$PROJECT_DIR$/static/pm/jpm.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/pm/jpm2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/china_postmodernism.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,27 +20,32 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="99fe14ed-5254-4410-9528-7c769bee95d5" />
   <component name="ProjectId" id="1UsBm5JQq2rRe2JtemgP1K6pBdQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -47,7 +56,19 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.flask_run">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dayoff" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -139,9 +160,9 @@
     </configuration>
     <list>
       <item itemvalue="Python.flask_run" />
-      <item itemvalue="Python.test" />
-      <item itemvalue="Python.helper" />
       <item itemvalue="Python.app" />
+      <item itemvalue="Python.helper" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
@@ -150,18 +171,6 @@
         <item itemvalue="Python.helper" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -173,7 +182,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576135577274</updated>
-      <workItem from="1576315018350" duration="1386000" />
+      <workItem from="1576315018350" duration="1820000" />
+      <workItem from="1576482383790" duration="760000" />
+      <workItem from="1576565443807" duration="594000" />
     </task>
     <task id="LOCAL-00001" summary=".DS store fix&#10;selenium practice">
       <created>1576314824113</created>
@@ -182,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576314824114</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=".DS store fix&#10;selenium practice">
+      <created>1576317154095</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576317154095</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +220,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value=".DS store fix&#10;selenium practice" />
     <option name="LAST_COMMIT_MESSAGE" value=".DS store fix&#10;selenium practice" />
   </component>
@@ -210,46 +229,54 @@
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="184" y="100" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.827@0.23.1440.827" timestamp="1576315588872" />
-    <state width="1358" height="199" key="GridCell.Tab.0.bottom" timestamp="1576317141704">
+    <state x="301" y="33" key="CommitChangelistDialog2" timestamp="1576317162002">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1358" height="199" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1576317141704" />
-    <state width="1358" height="199" key="GridCell.Tab.0.center" timestamp="1576317141703">
+    <state x="301" y="33" key="CommitChangelistDialog2/0.23.1440.827@0.23.1440.827" timestamp="1576317162002" />
+    <state x="507" y="200" key="FileChooserDialogImpl" timestamp="1576482525491">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1358" height="199" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1576317141703" />
-    <state width="1358" height="199" key="GridCell.Tab.0.left" timestamp="1576317141703">
+    <state x="507" y="200" key="FileChooserDialogImpl/0.23.1440.827@0.23.1440.827" timestamp="1576482525491" />
+    <state width="1358" height="249" key="GridCell.Tab.0.bottom" timestamp="1576400509464">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1358" height="199" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1576317141703" />
-    <state width="1358" height="199" key="GridCell.Tab.0.right" timestamp="1576317141704">
+    <state width="1358" height="249" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1576400509464" />
+    <state width="1358" height="249" key="GridCell.Tab.0.center" timestamp="1576400509463">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1358" height="199" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1576317141704" />
-    <state width="1358" height="249" key="GridCell.Tab.1.bottom" timestamp="1576316801141">
+    <state width="1358" height="249" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1576400509463" />
+    <state width="1358" height="249" key="GridCell.Tab.0.left" timestamp="1576400509459">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1358" height="249" key="GridCell.Tab.1.bottom/0.23.1440.827@0.23.1440.827" timestamp="1576316801141" />
-    <state width="1358" height="249" key="GridCell.Tab.1.center" timestamp="1576316801140">
+    <state width="1358" height="249" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1576400509459" />
+    <state width="1358" height="249" key="GridCell.Tab.0.right" timestamp="1576400509463">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1358" height="249" key="GridCell.Tab.1.center/0.23.1440.827@0.23.1440.827" timestamp="1576316801140" />
-    <state width="1358" height="249" key="GridCell.Tab.1.left" timestamp="1576316801140">
+    <state width="1358" height="249" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1576400509463" />
+    <state width="1358" height="249" key="GridCell.Tab.1.bottom" timestamp="1576400509470">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1358" height="249" key="GridCell.Tab.1.left/0.23.1440.827@0.23.1440.827" timestamp="1576316801140" />
-    <state width="1358" height="249" key="GridCell.Tab.1.right" timestamp="1576316801140">
+    <state width="1358" height="249" key="GridCell.Tab.1.bottom/0.23.1440.827@0.23.1440.827" timestamp="1576400509470" />
+    <state width="1358" height="249" key="GridCell.Tab.1.center" timestamp="1576400509467">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state width="1358" height="249" key="GridCell.Tab.1.right/0.23.1440.827@0.23.1440.827" timestamp="1576316801140" />
+    <state width="1358" height="249" key="GridCell.Tab.1.center/0.23.1440.827@0.23.1440.827" timestamp="1576400509467" />
+    <state width="1358" height="249" key="GridCell.Tab.1.left" timestamp="1576400509466">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1358" height="249" key="GridCell.Tab.1.left/0.23.1440.827@0.23.1440.827" timestamp="1576400509466" />
+    <state width="1358" height="249" key="GridCell.Tab.1.right" timestamp="1576400509469">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state width="1358" height="249" key="GridCell.Tab.1.right/0.23.1440.827@0.23.1440.827" timestamp="1576400509469" />
     <state x="221" y="75" key="SettingsEditor" timestamp="1576315250175">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
     <state x="221" y="75" key="SettingsEditor/0.23.1440.827@0.23.1440.827" timestamp="1576315250175" />
-    <state x="374" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1576315021482">
+    <state x="374" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1576482389922">
       <screen x="0" y="23" width="1440" height="827" />
     </state>
-    <state x="374" y="271" key="com.intellij.ide.util.TipDialog/0.23.1440.827@0.23.1440.827" timestamp="1576315021482" />
+    <state x="374" y="271" key="com.intellij.ide.util.TipDialog/0.23.1440.827@0.23.1440.827" timestamp="1576482389922" />
     <state x="388" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576315103742">
       <screen x="0" y="23" width="1440" height="827" />
     </state>

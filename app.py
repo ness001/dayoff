@@ -26,7 +26,7 @@ def left():
 import os
 import random
 def shuffle_image():
-    image_list=os.listdir('/Users/ness001/dayoff/static')
+    image_list=os.listdir('./static')
     image=random.choice(image_list)
     if image!='.DS_Store':
         return image
@@ -54,6 +54,10 @@ def form():
 def dayoff():
     g = greet()
     return render_template('dayoff.html', n=session['n'], e=session['e'], d=left(), g=g,image=shuffle_image())
+
+@app.route("/g",methods=['get'])
+def g():
+    return render_template('china_postmodernism.html')
 
 
 # user form
